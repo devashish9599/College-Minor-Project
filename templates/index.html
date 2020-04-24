@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>FindUPON</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/findupon.css}">
+<link rel="Icon" type="" href="">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:100"
+	rel="stylesheet">
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+
+
+
+	<nav class="navbar">
+
+
+
+		<div class="menu">
+			<div class="netflix-nav-btn netflix-open-btn">
+				<i class="fas fa-bars"></i>
+			</div>
+
+
+			<div class="netflix-nav netflix-nav-black">
+				<div class="netflix-nav netflix-nav-red">
+					<div class="netflix-nav netflix-nav-white">
+
+						<button class="netflix-nav-btn netflix-close-btn">
+							<i class="fas fa-times"></i>
+						</button>
+						<div class="findlogo">
+							<img src="image/fu2.png">
+						</div>
+						<ul class="netflix-list">
+							<li><a href="#">Teams</a></li>
+							<li><a href="#">Locations</a></li>
+							
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="rightcontent">
+
+			<div class="profile">
+				<a th:href="@{/profile}">Profile</a>
+
+			</div>
+
+			<div class="dropdown">
+				Settings
+				<div class="dropdown-content">
+					<a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link
+						3</a>
+				</div>
+			</div>
+
+			<div class="cart" >
+				<a th:href="@{/cart}"><i class="fab fa-opencart"></i></a> Cart
+			</div>
+			<div class="logout">
+				<a th:href="@{/logout}"><i class="fas fa-door-open"></i></a> logout
+			</div>
+		</div>
+		<!-- Icon -->
+		<!-- <div class="card__icon">
+        <svg viewbox="0 0 1129 994">
+          <g fill="none" fill-rule="nonzero" stroke="white" stroke-width="51">
+            <path d="M564.5 212.437L95.67 873.5h937.66L564.5 212.437z"/>
+            <path d="M564.5 407.47L163.638 973.5h801.724L564.5 407.47z"/>
+            <path d="M564.5 35.409L39.699 774.5H1089.3L564.5 35.409z"/>
+          </g>
+        </svg>
+      </div>
+  -->
+
+
+
+
+	</nav>
+
+
+
+
+
+
+
+	<main>
+		<div id="parallax">
+			<h1>F</h1>
+			<h1 class="r">i</h1>
+			<h1 class="e1">n</h1>
+			<h1 class="s1">d</h1>
+			<h1 class="s2">U</h1>
+			<h1 class="e2">P</h1>
+			<h1 class="d">O</h1>
+
+			<h1 class="n">N</h1>
+		</div>
+
+	</main>
+
+	<br>
+	<div class="tile bottom-right">
+		<div class="find">
+			<p>FindUPON : The Best Portal To Customize Your PC's</p>
+
+			<br>
+			<div class="h1">
+				<p>The basic parts of a desktop computer are the</p>
+				<p>computer case, monitor,keyboard , mouse, and power cord .</p>
+				<p>Each part plays an important role whenever you</p>
+				<p>use a computer.Find Upon Offers Input /Output devices</p>
+				<p>(Keyboard, Mouse, Joystick , GamePAd, Touch Screen,Monitor,</p>
+				<p>Printer)DispLay( Plasma , LCD , OLED , LED ,</p>
+				<p>backlight etc. ) Graphic Card, also known</p>
+				<p>as a video card, is a piece of hardware installed</p>
+				<p>in a computer that is responsible for rendering</p>
+				<p>the image on the computer’s monitor or display screen.</p>
+				<p>(Asus ROG Strix GeForce GTX 1660 Ti OC ,XFX RX 5700 ,M</p>
+				<p>EVGA GeForce GTX 1660 ).</p>
+			</div>
+
+			<br>
+
+		</div>
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="tile bottom-right">
+		<div class="underline"></div>
+		<div class="tile bottom-right">
+
+			<div class="icons">
+				<div class="col-sm">
+					<a href=""> <i
+						class="fas fa-american-sign-language-interpreting"></i></a>
+				</div>
+				<div class="col-sm">
+					<a href=""> <i class="fas fa-user-lock"></i></a>
+				</div>
+				<div class="col-sm">
+					<a href=""> <i class="fas fa-exchange-alt"></i></a>
+				</div>
+				<div class="col-sm">
+					<a href=""> <i class="fas fa-dolly"></i></a>
+				</div>
+			</div>
+		</div>
+		<br> <br>
+		<div class="tile bottom-right">
+			<div class="texts ">
+
+				<span class="one">1 YEAR WARRANTY<br>
+					<p>On All Products</p></span> <span class="one">SAFE SHOPPING
+					<p>With SSL Secure Payment</p>
+				</span> <span class="one">10 DAYS RETURN
+					<p>Money Back Guarantee</p>
+				</span> <span class="one">FREE SHIPPING
+					<p>Fast / Reliable Delivery</p>
+				</span>
+			</div>
+
+
+
+
+		</div>
+
+
+		<br> <br> <br>
+		<div class="underlinee"></div>
+		<br> <br> <br> <br> <br> <br> <br>
+		<div class="tile bottom-right">
+			<div class="fourthcontent">
+
+
+
+
+
+				<p>
+				<div class="image2">
+					<div class="tile bottom-right">
+						<div class="fig1">
+							<h1>I/O Devices</h1>
+						</div>
+						<p>Input and output devices allow the computer system to
+							interact with the outside world by moving data into and out of
+							the system. An input device is used to bring data into the
+							system.</p>
+						<
+
+						<div class="io">
+
+							<div class="col-sm">
+								<a href="">
+									<h2>Keyboards</h2>
+								</a>
+							</div>
+
+
+							<div class="col-sm">
+								<a href=""><h2>Mouse</h2></a>
+							</div>
+
+							<div class="col-sm">
+								<a href=""><h2>Headphones</h2></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<span id="dots">...</span><span id="more">
+					<div class="row" id="keyboard">
+						<h1 class="h1">KEYBOARDS</h1>
+					</div> <br> <br>
+					<div class="keycards">
+
+						<a th:href="@{/keyboards}">
+							<div class="wrapper">
+								<div class="container">
+									<div class="top">
+										<img src="image/grasskeyboard2.jpg">
+									</div>
+									<div class="bottom">
+										<div class="left">
+											<div class="details">
+												<h1>Wired Key Panels</h1>
+												<p>Rs.250</p>
+
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="inside">
+
+									<div class="contents"></div>
+								</div>
+							</div>
+						</a>
+						<div class="wrapper">
+							<a th:href="@{/keyboards}">
+								<div class="container">
+									<div class="top" id="img2">
+										<img src="image/wireless.jpg">
+									</div>
+									<div class="bottom">
+										<div class="left">
+											<div class="details">
+												<h1>Wireless Key Panels</h1>
+												<p>Rs.450</p>
+											</div>
+											<div class="buy">
+												<i class="material-icons"></i>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="inside">
+
+									<div class="contents"></div>
+								</div>
+						</div>
+						</a>
+						<div class="wrapper">
+						<a th:href="@{/keyboards}">
+							<div class="container">
+								<div class="top" id="img3">
+									<img src="image/blackke.jpg">
+								</div>
+								<div class="bottom">
+									<div class="left">
+										<div class="details">
+											<h1>Mechanical Keyboards</h1>
+											<p>Rs.300</p>
+										</div>
+										<div class="buy">
+											<i class="material-icons"></i>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="inside">
+
+								<div class="contents"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row" id="keyboard">
+						<h1 class="h1">MOUSE</h1>
+					</div> <br> <br>
+					<div class="keycards">
+
+
+						<div class="wrapper">
+					<a th:href="@{/mouse}">
+							<div class="container">
+								<div class="top" id="img4">
+									<img src="image/gamingmouse.jpg">
+								</div>
+								<div class="bottom">
+									<div class="left">
+										<div class="details">
+											<h1>wireless Mouse</h1>
+											<p>Rs.250</p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="inside">
+
+								<div class="contents"></div>
+							</div>
+							</a>
+						</div>
+						
+						<div class="wrapper">
+						<a th:href="@{/mouse}">
+							<div class="container">
+								<div class="top" id="img5">
+									<img src="image/omouse.png">
+								</div>
+								<div class="bottom">
+									<div class="left">
+										<div class="details">
+											<h1>Optical Mouse</h1>
+											<p>Rs.250</p>
+										</div>
+										<div class="buy">
+											<i class="material-icons"></i>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="inside">
+
+								<div class="contents"></div>
+							</div>
+						</div>
+						<div class="wrapper">
+						<a th:href="@{/mouse}">
+							<div class="container">
+								<div class="top" id="img6">
+									<img src="image/kain2.jpg">
+								</div>
+								<div class="bottom">
+									<div class="left">
+										<div class="details">
+											<h1>Gaming Mouse</h1>
+											<p>Rs.650</p>
+										</div>
+										<div class="buy">
+											<i class="material-icons"></i>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="inside">
+
+								<div class="contents"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row" id="keyboard">
+						<h1 class="h1">HEADPHONES</h1>
+					</div> <br> <br>
+					<div class="keycards">
+
+
+						<div class="wrapper">
+						<a th:href="@{/headphones}">
+							<div class="container">
+								<div class="top" id="img7">
+									<img src="image/wiredhead.jpg">
+								</div>
+								<div class="bottom">
+									<div class="left">
+										<div class="details">
+											<h1>Wired Headphones</h1>
+											<p>Rs.300</p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="inside">
+
+								<div class="contents"></div>
+							</div>
+							</a>
+						</div>
+						<div class="wrapper">
+						<a th:href="@{/headphones}">
+							<div class="container">
+								<div class="top" id="img8">
+									<img src="image/wirelesshead.jpg">
+								</div>
+								<div class="bottom">
+									<div class="left">
+										<div class="details">
+											<h1>Wireless Headphones</h1>
+											<p>Rs.2100</p>
+										</div>
+										<div class="buy">
+											<i class="material-icons"></i>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="inside">
+
+								<div class="contents"></div>
+							</div>
+							</a>
+						</div>
+						<div class="wrapper">
+						<a th:href="@{/headphones}">
+							<div class="container">
+								<div class="top" id="img9">
+									<img src="image/bluetooth.jpg">
+								</div>
+								<div class="bottom">
+									<div class="left">
+										<div class="details">
+											<h1>Chair</h1>
+											<p>£250</p>
+										</div>
+										<div class="buy">
+											<i class="material-icons"></i>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="inside">
+
+								<div class="contents"></div>
+							</div>
+							</a>
+						</div>
+					</div>
+				</span>
+				</p>
+				<button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+			</div>
+			<br> <br>
+
+		</div>
+		<div class="tile bottom-right">
+			<div class="hot">
+				<h1>HOT PRICING</h1>
+			</div>
+			<br> <br> <br> <br> <br> <br>
+			<div class=four-five>
+
+				<!--
+<section class="wrapper">-->
+
+				<!-- BEGIN: menu -->
+
+				<!-- END: menu -->
+
+				<!-- BEGIN: card -->
+				<!-- <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="image/sky.jpg" alt="Short description">
+    </figure>
+    <div class="card__header">
+     
+    </div>-->
+				<!--
+    <div class="card__body">
+      <h3 class="card__name">Neil Armstrong</h3>
+      <p class="card__job">astronaut & engineer</p>
+      <p class="card__bio"> American astronaut, engineer, and the first person to walk on the Moon.</p>
+    </div>
+    <div class="card__footer">
+      <p class="card__date">Feb 10 2018</p>
+      <p class=""></p>
+    </div>
+  </div>-->
+				<!-- END: card 
+  
+
+<br><br><br><br>
+
+</div></section>-->
+
+
+				<div class="card">
+					<div class="card__title">
+
+						<h3>New products</h3>
+					</div>
+					<div class="card__body">
+						<div class="half">
+							<div class="featured_text">
+								<h1>Huawei MateBook X Pro.</h1>
+								<p class="sub"></p>
+								<p class="price">$210.00</p>
+							</div>
+							<div class="image">
+								<img src="image/fullsetup.jpg" alt="">
+							</div>
+						</div>
+						<div class="half">
+							<div class="description">
+								<p>HUAWEI MateBook X Pro’s 3K LTPS display comes with a
+									remarkable 3000 x 2000 resolution, 260 PPI, 100% sRGB colour
+									gamut, 450 nits maximum brightness and 1500:1 contrast ratio.
+									Immerse yourself in vivid details when viewing high definition
+									pictures or watching 4K videos.</p>
+							</div>
+							<span class="stock"><i class="fa fa-pen"></i> In stock</span>
+							<div class="reviews">
+								<ul class="stars">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star-o"></i></li>
+								</ul>
+								<span>(64 reviews)</span>
+							</div>
+						</div>
+					</div>
+					<div class="card__footer">
+						<div class="recommend">
+							<p>When Inspiration Strikes</p>
+							<h3>Be READY</h3>
+						</div>
+						<div class="action">
+							<button type="button">BUY</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="tile bottom-right">
+		<div class="fifthcontent">
+
+
+
+
+
+			<p>
+			<div class="image4">
+				<div class="tile bottom-right">
+					<div class="fig1">
+						<h1>Memory Devices</h1>
+					</div>
+					<p>Computer memory is any physical device capable of storing
+						information temporarily, like RAM or permanently, like ROM .
+						Memory devices utilize integrated circuits and are used by
+						operating systems, software, and hardware</p>
+
+					<div class="io">
+
+						<div class="col-sm">
+							<a href="">
+								<h2>SSD</h2>
+							</a>
+						</div>
+
+
+						<div class="col-sm">
+							<a href=""><h2>RAM</h2></a>
+						</div>
+
+						<div class="col-sm">
+							<a href=""><h2>USB</h2></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<span id="dot">...</span><span id="mor">
+				<div class="row" id="keyboard">
+					<h1 class="h1" style="letter-spacing: 4px;">SSD</h1>
+				</div> <br> <br>
+				<div class="keycards">
+
+
+					<div class="wrapper">
+					<a th:href="@{/ssd}">
+						<div class="container">
+							<div class="top" id="img10">
+								<img src="image/nand.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Multi media Card</h1>
+										<p>£250</p>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+						</a>
+					</div>
+					<div class="wrapper">
+					<a th:href="@{/ssd}">
+						<div class="container">
+							<div class="top" id="img11">
+								<img src="image/digital.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Digital</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+</a>
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+					<a th:href="@{/ssd}">
+						<div class="container">
+							<div class="top" id="img12">
+								<img src="image/portable.png">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Portable SSD</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="row" id="keyboard">
+					<h1 class="h1" style="letter-spacing: 4px;">RAM</h1>
+				</div> <br> <br>
+				<div class="keycards">
+
+
+					<div class="wrapper">
+					<a th:href="@{/ram}">
+						<div class="container">
+							<div class="top" id="img13">
+								<img src="image/static.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Static Ram</h1>
+										<p>£250</p>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+						</a>
+					</div>
+					<div class="wrapper">
+					<a th:href="@{/ram}">
+						<div class="container">
+							<div class="top" id="img14">
+								<img src="image/dram.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Dynamic Ram</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+						
+
+							<div class="contents"></div>
+						</div>
+						</a>
+					</div>
+					<div class="wrapper">
+					<a th:href="@{/ram}">
+						<div class="container">
+							<div class="top" id="img15">
+								<img src="image/SDRAM.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>SDRAM</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class="row" id="keyboard">
+					<h1 class="h1" style="letter-spacing: 4px;">USB</h1>
+				</div> <br> <br>
+				<div class="keycards">
+
+
+					<div class="wrapper">
+						<div class="container">
+							<div class="top" id="img16">
+								<img src="image/usbaa.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>USB-A</h1>
+										<p>£250</p>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="container">
+							<div class="top">
+								<img src="image/usbb.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>USB-B</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="container">
+							<div class="top">
+								<img src="image/usbc.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>USB-C</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+				</div>
+			</span>
+			</p>
+			<button onclick="Function()" id="myBt">Read more</button>
+
+
+		</div>
+	</div>
+
+
+
+	<br>
+	<br>
+	<div class="tile bottom-right">
+		<div class="five-six">
+
+			<div class="wrapper">
+				<div class="outer">
+					<div class="content animated fadeInLeft">
+						<span class="bg animated fadeInDown">EXCLUSIVE</span>
+						<h1>
+							GTX 155<br /> Caldor Gaming Mouse
+						</h1>
+						<p>This well-designed gaming mouse has an ergonomic design
+							with a practical placement of buttons and rough coating on the
+							sides that ensures a solid and perfect grip during your gaming
+							sessions.</p>
+
+						<div class="button">
+							<a href="#">$115</a><a class="cart-btn" href="#">Buy</a>
+						</div>
+
+					</div>
+					<img src="image/gxt.jpg" class="animated fadeInRight">
+				</div>
+			</div>
+			<br>
+		</div>
+		<br> <br> <br>
+
+
+	</div>
+	<div class="tile bottom-right">
+		<div class="sixthcontent">
+
+
+
+
+
+			<p>
+			<div class="image3">
+				<div class="tile bottom-right">
+					<div class="fig1">
+						<h1>Networking Devices</h1>
+					</div>
+					<p>Electronic devices which are required for communication and
+						interaction between devices on a computer network. Specifically,
+						they mediate data transmission in a computer network.</p>
+
+					<div class="io">
+
+						<div class="col-sm">
+							<a href="">
+								<h2>Router</h2>
+							</a>
+						</div>
+
+
+						<div class="col-sm">
+							<a href=""><h2>Modem</h2></a>
+						</div>
+
+						<div class="col-sm">
+							<a href=""><h2>NIC card</h2></a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<span id="three">...</span><span id="extra">
+				<div class="row" id="keyboard">
+					<h1 class="h1">ROUTER</h1>
+				</div> <br> <br>
+				<div class="keycards">
+
+
+					<div class="wrapper">
+				<a  th:href="@{/routers}">
+						<div class="container">
+						
+							<div class="top">
+								<img src="image/wired.jpg" ></a>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Wired Router</h1>
+										<p>£250</p>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+				<a th:href="@{/routers}">
+						<div class="container">
+						
+							<div class="top" id="img20">
+								<img src="image/wirelessrouter.jpg" ></a>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>wireless Router</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+					<a th:href="@{/routers}" >
+						<div class="container">
+						
+							<div class="top" id="img21">
+								<img src="image/core.jpg" ></a>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Core Router</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="keyboard">
+					<h1 class="h1">MODEM</h1>
+				</div> <br> <br>
+				<div class="keycards">
+
+
+					<div class="wrapper">
+				<a th:href="@{/modems}">
+						<div class="container">
+						
+							<div class="top" id="img22">
+								<img src="image/is.jpg"></a>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>ISDN Modem</h1>
+										<p>£250</p>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+				<a th:href="@{/modems}">
+						<div class="container">
+						
+							<div class="top">
+								<img src="image/dsl.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>DSL Modem</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+						</a>
+					</div>
+					<div class="wrapper">
+				<a th:href="@{/modems}">
+						<div class="container">
+							<div class="top">
+								<img src="image/cable.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Cable Modem</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class="row" id="keyboard">
+					<h1 class="h1">NIC CARDS</h1>
+				</div> <br> <br>
+				<div class="keycards">
+
+
+					<div class="wrapper">
+						<div class="container">
+							<div class="top">
+								<img src="image/ethernet.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Ethernet</h1>
+										<p>£250</p>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="container">
+							<div class="top">
+								<img src="image/wirelessnic.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>wireless</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="container">
+							<div class="top">
+								<img src="image/nic.jpg">
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<div class="details">
+										<h1>Wired</h1>
+										<p>£250</p>
+									</div>
+									<div class="buy">
+										<i class="material-icons"></i>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="inside">
+
+							<div class="contents"></div>
+						</div>
+					</div>
+				</div>
+			</span>
+			</p>
+			<button onclick="Functionsixth()" id="my">Read more</button>
+
+
+		</div>
+
+
+
+
+	</div>
+
+
+
+
+
+	<br>
+	<br>
+
+	<div class="tile bottom-right">
+		<div class="pricetable">
+			<h1>MEMBERSHIP PLANS</h1>
+		</div>
+		<br> <br> <br>
+		<section>
+			<div class='pricing pricing-palden'>
+				<div class='pricing-item'>
+					<div class='pricing-deco'>
+						<svg class='pricing-deco-img' enable-background='new 0 0 300 100'
+							height='100px' id='Layer_1' preserveAspectRatio='none'
+							version='1.1' viewBox='0 0 300 100' width='300px' x='0px'
+							xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink'
+							xmlns='http://www.w3.org/2000/svg' y='0px'>
+          <path class='deco-layer deco-layer--1'
+								d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A; c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z'
+								fill='#FFFFFF' opacity='0.6'></path>
+          <path class='deco-layer deco-layer--2'
+								d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A;  c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z'
+								fill='#FFFFFF' opacity='0.6'></path>
+          <path class='deco-layer deco-layer--3'
+								d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;  H42.401L43.415,98.342z'
+								fill='#FFFFFF' opacity='0.7'></path>
+          <path class='deco-layer deco-layer--4'
+								d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A; c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z'
+								fill='#FFFFFF'></path>
+        </svg>
+						<div class='pricing-price'>
+							<span class='pricing-currency'>$</span>29 <span
+								class='pricing-period'>/ month</span>
+						</div>
+						<h3 class='pricing-title'>Freelance</h3>
+					</div>
+					<ul class='pricing-feature-list'>
+						<li class='pricing-feature'>10% Discount On Each Product!!</li>
+						<li class='pricing-feature'>Support</li>
+						<li class='pricing-feature'>First 5 deliveries Free!!</li>
+					</ul>
+					<button class='pricing-action'>Choose plan</button>
+				</div>
+				<div class='pricing-item pricing__item--featured'>
+					<div class='pricing-deco'>
+						<svg class='pricing-deco-img' enable-background='new 0 0 300 100'
+							height='100px' id='Layer_1' preserveAspectRatio='none'
+							version='1.1' viewBox='0 0 300 100' width='300px' x='0px'
+							xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink'
+							xmlns='http://www.w3.org/2000/svg' y='0px'>
+          <path class='deco-layer deco-layer--1'
+								d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A; c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z'
+								fill='#FFFFFF' opacity='0.6'></path>
+          <path class='deco-layer deco-layer--2'
+								d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A;  c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z'
+								fill='#FFFFFF' opacity='0.6'></path>
+          <path class='deco-layer deco-layer--3'
+								d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;  H42.401L43.415,98.342z'
+								fill='#FFFFFF' opacity='0.7'></path>
+          <path class='deco-layer deco-layer--4'
+								d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A; c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z'
+								fill='#FFFFFF'></path>
+        </svg>
+						<div class='pricing-price'>
+							<span class='pricing-currency'>$</span>59 <span
+								class='pricing-period'>/ month</span>
+						</div>
+						<h3 class='pricing-title'>Business</h3>
+					</div>
+					<ul class='pricing-feature-list'>
+						<li class='pricing-feature'>15% Discount On Each Product!!</li>
+						<li class='pricing-feature'>Support 24/7</li>
+						<li class='pricing-feature'>First 12 Deliveries FREE!!</li>
+					</ul>
+					<button class='pricing-action'>Choose plan</button>
+				</div>
+				<div class='pricing-item'>
+					<div class='pricing-deco'>
+						<svg class='pricing-deco-img' enable-background='new 0 0 300 100'
+							height='100px' id='Layer_1' preserveAspectRatio='none'
+							version='1.1' viewBox='0 0 300 100' width='300px' x='0px'
+							xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink'
+							xmlns='http://www.w3.org/2000/svg' y='0px'>
+          <path class='deco-layer deco-layer--1'
+								d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A; c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z'
+								fill='#FFFFFF' opacity='0.6'></path>
+          <path class='deco-layer deco-layer--2'
+								d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A;  c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z'
+								fill='#FFFFFF' opacity='0.6'></path>
+          <path class='deco-layer deco-layer--3'
+								d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;  H42.401L43.415,98.342z'
+								fill='#FFFFFF' opacity='0.7'></path>
+          <path class='deco-layer deco-layer--4'
+								d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A; c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z'
+								fill='#FFFFFF'></path>
+        </svg>
+						<div class='pricing-price'>
+							<span class='pricing-currency'>$</span>99 <span
+								class='pricing-period'>/ month</span>
+						</div>
+						<h3 class='pricing-title'>Enterprise</h3>
+					</div>
+					<ul class='pricing-feature-list'>
+						<li class='pricing-feature'>25% Discount On Each Product</li>
+						<li class='pricing-feature'>Product Fixing and Return</li>
+						<li class='pricing-feature'>All Shipment Free</li>
+					</ul>
+					<button class='pricing-action'>Choose plan</button>
+				</div>
+			</div>
+		</section>
+		<br> <br> <br>
+	</div>
+
+	<footer class="ct-footer">
+		<div class="container">
+			<form name="contentForm" enctype="multipart/form-data" method="post"
+				action="">
+				<div class="ct-footer-pre text-center-lg">
+					<div class="inner">
+						<span>&nbsp;&nbsp;&nbsp;Join FindUPON to receive
+							updates,news & events!</span>
+					</div>
+					<div class="inner">
+						<div class="form-group">
+							<input name="formfields[nl_email]" id="nl_email"
+								class="validate[required]"
+								placeholder="Enter your email address" type="text" value="">
+							<label for="nl_email" class="sr-only">Email Address</label>
+							<button type="submit" class="btn btn-motive">Join</button>
+						</div>
+					</div>
+				</div>
+			</form>
+			<ul class="ct-footer-list text-center-sm">
+				<li>
+					<h2 class="ct-footer-list-header">Learn More</h2>
+					<ul>
+						<li><a href="">Company</a></li>
+						<li><a href="">Clients</a></li>
+						<li><a href="">News</a></li>
+						<li><a href="">Careers</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2 class="ct-footer-list-header">Services</h2>
+					<ul>
+						<li><a href="">Design</a></li>
+						<li><a href="">Marketing</a></li>
+						<li><a href="">Sales</a></li>
+						<li><a href="">Programming</a></li>
+						<li><a href="">Support</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2 class="ct-footer-list-header">The Industry</h2>
+					<ul>
+						<li><a href="">Thought Leadership</a></li>
+						<li><a href="">Webinars</a></li>
+						<li><a href="">Events</a></li>
+						<li><a href="">Sponsorships</a></li>
+
+					</ul>
+				</li>
+				<li>
+					<h2 class="ct-footer-list-header" style="">Public Relations</h2>
+					<ul style="">
+						<li><a href="">FAQs</a></li>
+						<li><a href="">News</a></li>
+						<li><a href="">Contact Us</a></li>
+
+					</ul>
+				</li>
+			</ul>
+			<div class="ct-footer-meta text-center-sm">
+				<div class="row" style="">
+					<div class="col-sm-6 col-md-2">
+						<img alt="logo" src="image/fu1.png" style="">
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<address>
+							<span>Sharda University<br></span>knowledge Park III<br>
+							Greater Noida,22222<br> <span>Phone: <a
+								href="tel:5555555555">(+919565983511)</a></span>
+						</address>
+					</div>
+					<div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+						<a href="" target="_blank" class="app"> <img alt="logo"
+							src="image/app.png" style="width: 130px; height: 50px;"></a>
+					</div>
+					<div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+						<a href="" target="_blank" class="google"> <img alt="logo"
+							src="image/google.png" style="width: 140px; height: 60px;"></a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<ul class="ct-socials list-unstyled list-inline">
+							<li><a href="" target="_blank"> <img alt="logo"
+									src="image/fb.png"
+									style="width: 80px; height: 80px; position: relative; top: 3px"></a>
+							</li>
+							<li><a href="" target="_blank"> <img alt="logo"
+									src="image/insta.png" style="width: 10 0px; height: 100px;"></a>
+							</li>
+							<li><a href="" target="_blank"> <img alt="logo"
+									src="image/twitter.png"
+									style="width: 70px; height: 70px; position: relative; top: 13px;"></a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">const netflix_open_btn = document.querySelector('.netflix-open-btn');
+const netflix_close_btn = document.querySelector('.netflix-close-btn');
+const netflix_nav = document.querySelectorAll('.netflix-nav');
+
+netflix_open_btn.addEventListener('click', () => {
+  netflix_nav.forEach(nav_el => { nav_el.classList.add('visible') });
+});
+
+netflix_close_btn.addEventListener('click', () => {
+  netflix_nav.forEach(nav_el => { nav_el.classList.remove('visible') });
+});
+
+// GET IN TOUCH COMPONENT
+const floating_btn = document.querySelector('.floating-btn');
+const close_btn = document.querySelector('.close-btn');
+const social_panel_container = document.querySelector('.social-panel-container');
+
+floating_btn.addEventListener('click', () => {
+  social_panel_container.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', () => {
+  social_panel_container.classList.remove('visible')
+});</script>
+
+
+	<script type="text/javascript" src="/js/findupon.js"></script>
+
+	<script type="text/javascript" src="/js/slow.js"></script>
+	<script type="text/javascript" src="/js/comp.js"></script>
+</body>
+</html>
